@@ -1,0 +1,227 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    
+   
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <
+
+ 
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+    
+  
+<title>Tienda de Ropa</title>
+</head>
+<body>
+    <div class="menu">
+        
+        
+
+  
+<ol>
+            
+            
+
+       
+
+ 
+<li>Inicio</li>
+            
+           
+
+     
+<li>Quienes Somos</li>
+            
+       
+<li>Productos</li>
+            
+            
+
+        
+
+  
+<li>Contáctanos</li>
+        
+        </ol
+
+       
+
+  
+</ol>
+    
+    </di
+
+   
+</div>
+    
+  
+<h1>Bienvenidos a Nuestra Tienda de Ropa</h1>
+    
+ 
+<img src="imagen2.jpg" style="width:100%; height:auto;">
+    
+    
+<p>
+        Nuestra tienda ofrece una amplia variedad de ropa para todas las edades y gustos. Nos especializamos en moda contemporánea y clásica, asegurando siempre la mejor calidad y estilo para nuestros clientes.
+    
+        
+      
+</p>
+    
+    
+<p>
+        Desde trajes elegantes hasta ropa casual, nuestra selección está diseñada para satisfacer todas tus necesidades de vestuario. Ven y descubre las últimas tendencias en moda y aprovecha nuestras ofertas exclusivas.
+    
+         
+</p>
+
+    
+
+ 
+<h1>Formulario de Contacto</h1>
+    
+ 
+<form action="#" method="POST" enctype="multipart/form-data">
+        
+        
+<fieldset>
+            
+        
+<legend>Información Básica</legend>
+            
+     
+<label>Nombre: <input type="text" name="nombrecompleto" size="60"></label><br><br>
+            
+         
+
+  
+<label>Apellido: <input type="text" name="apellidos" size="60" minlength="2" maxlength="100" pattern="[A-Za-z ]+" title="Solo se permiten texto en mayúsculas o minúsculas" required></label><br><br>
+            
+      
+<label>DNI: <input type="text" name="dni" size="19" minlength="8" maxlength="8" pattern="[0-9]+" title="Solo números, longitud 8 caracteres" required></label><br><br>
+            
+         
+
+  
+<label>Correo electrónico: <input type="email" placeholder="micorreo@gmail.com" size="50" name="correo" required></label><br><br>
+            
+         
+
+    
+<label>Teléfono: <input type="tel" name="telefono" required></label><br><br>
+            
+             
+
+    
+<select name="ciudades" id="ciudades">
+                    
+             
+
+    
+<option value="lima">Lima</option>
+                    
+              
+
+   
+<option value="arequipa">Arequipa</option>
+                    
+             
+
+   
+<option value="cusco">Cusco</option>
+                    
+                  
+
+      
+
+<option value="cajamarca">Cajamarca</option>
+                
+                </se
+
+           
+
+  
+</select>
+            
+            
+
+   
+</label><br><br>
+            
+       
+<label>Foto: <input type="file" name="txtFoto"/></label><br><br>
+        
+        </fields
+
+      
+</fieldset>
+        
+      
+<fieldset>
+            
+       
+<legend>Información Adicional</legend><br>
+            
+           
+
+ 
+           
+
+    
+<label>Seleccione su categoría de ropa favorita:<br>
+                
+    
+<select name="categoria" size="4">
+                    
+                    
+
+        
+<option value="casual">Casual</option>
+                    
+             
+<option value="formal">Formal</option>
+                    
+                 
+
+     
+<option value="deportiva">Deportiva</option>
+                    
+                 
+
+  
+<option value="infantil">Infantil</option>
+                
+                </select
+
+          
+</select>
+            
+           
+</label><br><br>
+            
+          
+<label>Mensaje: <br>
+                
+     
+<textarea name="mensaje" rows="5" cols="40"></textarea>
+            
+          
+        
+        
+<input type="submit" value="Enviar datos">
+        
+        
+<input type="reset" value="Borrar datos">
+ 
+ <h1>Cinthia Milagros Llico Mestanza</h1>
+
+    
+    </f  
+
+</form>
+
+</bod
+</body>
+</html>
