@@ -1,0 +1,94 @@
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    max-width: 65%;
+    height: auto;
+     
+    margin:10px;
+     display:block ;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.header-name {
+    border: 18px solid #EAC449; /* Borde amarillo */
+    padding: 50px;
+    margin-bottom: 40px;
+    text-align: left;
+    display: inline-block; /* Hace que el div sea del tamaño de su contenido */
+    box-sizing: border-box;
+    white-space:rigth ;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 0.8em; /* Letras pequeñas */
+    color: gray;
+    text-align: left;
+}
+
+.name h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.presentation p {
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    max-width: 850px; /* Ancho máximo para alinear los párrafos */
+}
+
+.presentation p strong {
+    font-weight: bold;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
